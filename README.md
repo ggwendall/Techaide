@@ -65,4 +65,6 @@ Ce projet a été développé en utilisant les ressources suivantes :
 
 Ce projet a été développé par Quenet Gwendal.
 
+<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
+
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
