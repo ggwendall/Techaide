@@ -1,6 +1,6 @@
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
-# TechAide - Charity Landing Page
+# TechAide - Charity Website
 
 TechAide est une page de collecte de dons en ligne pour une association caritative. Cette page permet de présenter la cause défendue et de recueillir des promesses de dons via un formulaire en ligne. Le projet a été développé en utilisant les technologies suivantes : Python, Flask, MySQL, HTML/CSS.
 
