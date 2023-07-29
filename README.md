@@ -1,6 +1,10 @@
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
+
 # TechAide - Charity Landing Page
 
 TechAide est une page de collecte de dons en ligne pour une association caritative. Cette page permet de présenter la cause défendue et de recueillir des promesses de dons via un formulaire en ligne. Le projet a été développé en utilisant les technologies suivantes : Python, Flask, MySQL, HTML/CSS.
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Fonctionnalités
 
@@ -8,6 +12,8 @@ TechAide est une page de collecte de dons en ligne pour une association caritati
 - Un formulaire permettant de faire une promesse de don avec les champs suivants : nom, prénom, adresse, e-mail, somme promise, une case à cocher pour indiquer que le donneur a pris connaissance des conditions, etc.
 - Une page affichant toutes les informations sur les promesses de don, telles que la liste des donateurs, les sommes promises et les e-mails à contacter, ainsi que le total récolté.
 - Les informations du formulaire sont stockées dans une base de données MySQL.
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Structure du Projet
 
@@ -20,6 +26,8 @@ Le projet est organisé comme suit :
 - `database.sql` : Fichier contenant le code pour la gestion de la base de données MySQL.
 - `app.py` : Fichier principal contenant le code Python pour l'application web.
 - `requirements.txt` : Fichier listant les dépendances Python nécessaires pour le projet.
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Installation
 
@@ -41,6 +49,8 @@ python app.py
 
 6. Accédez à l'application dans votre navigateur en visitant l'URL `http://localhost:5000`.
 
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
+
 ## Crédits
 
 Ce projet a été développé en utilisant les ressources suivantes :
@@ -55,4 +65,4 @@ Ce projet a été développé en utilisant les ressources suivantes :
 
 Ce projet a été développé par Quenet Gwendal.
 
----
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
