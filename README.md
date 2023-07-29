@@ -1,3 +1,5 @@
+![Capture d'écran 2023-07-29 184759](https://github.com/ggwendall/Techaide/assets/48108275/31960d7d-28cf-439b-9dc8-5b77a90b9ee3)
+
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 # TechAide - Charity Website
