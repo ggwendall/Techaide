@@ -1,0 +1,75 @@
+/* submit-donation.css */
+
+/* Styles spécifiques pour la page submit_donation */
+.submit-donation-page {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.submit-donation-page h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.submit-donation-page p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-area {
+    background-color: #fff;
+    color: #222;
+    text-align: center
+}
+
+.footer-menu {
+    margin-bottom: 30px
+}
+
+.footer-menu li {
+    display: inline-block
+}
+
+.footer-menu li a {
+    color: #222;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 30px
+}
+
+.footer-menu li a:hover {
+    color: #f41665
+}
+
+@media (max-width: 414px) {
+    .footer-menu {
+        padding: 15px
+    }
+}
+
+.footer-social {
+    padding-bottom: 30px
+}
+
+.footer-social a {
+    padding: 15px
+}
+
+.footer-social a i {
+    color: #ccc;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.footer-social a i:hover {
+    color: #f41665
+}
+
+.footer-text a,
+.footer-text i {
+    color: #f41665
+}
