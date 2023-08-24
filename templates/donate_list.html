@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="static/img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="GwenDev">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>TechAide</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!--
+    CSS
+    ============================================= -->
+    <link rel="stylesheet" href="static\css\linearicons.css">
+    <link rel="stylesheet" href="static\css\font-awesome.min.css">
+    <link rel="stylesheet" href="static\css\magnific-popup.css">
+    <link rel="stylesheet" href="static\css\nice-select.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="static\css\bootstrap.css">
+    <link rel="stylesheet" href="static\css\main.css">
+</head>
+<body class="donate-list"> <!-- Ajoutez la classe donate-list ici -->
+<!-- Start Header Area -->
+<header class="default-header">
+    <div class="container">
+        <div class="header-wrap">
+            <div class="header-top d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="/" aria-label="Accueil"><img src="static\img\logo.png" alt=""></a>
+                </div>
+                <div class="main-menubar d-flex align-items-center">
+                    <nav class="hide">
+                        <a href="/">Home</a>
+                        <a href="/donate">Donate</a>
+                        <a href="/donate_list">Donate list</a>
+                    </nav>
+                    <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header Area -->
+
+
+    <h1>Liste des Dons</h1>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Email</th>
+            <th>Montant</th>
+            <th>Message</th>
+        </tr>
+        {% for donation in donations %}
+        <tr>
+            <td>{{ donation[1] }}</td>
+            <td>{{ donation[2] }}</td>
+            <td>{{ donation[3] }}</td>
+            <td>{{ donation[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    		<!-- Charger les fichiers JavaScript -->
+		<script src="{{ url_for('static', filename='js/vendor/jquery-2.2.4.min.js') }}"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="{{ url_for('static', filename='js/vendor/bootstrap.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.ajaxchimp.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.nice-select.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
